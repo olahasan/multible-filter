@@ -1,0 +1,38 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inp{
+    /* margin-bottom: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-49%);
+    border: 1px solid grey; */
+    width: 200px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-49%);
+    border: 1px solid grey;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.inp,
+select:focus{
+    outline: none;
+}
+select {
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    /* width: 71px; */
+    /* position: relative; */
+    /* left: 50%; */
+    /* transform: translateX(-49%); */
+    border: 1px solid grey;
+    padding: 7px 5px;
+    border-radius: 5px;
+    height: 31px;
+}
